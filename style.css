@@ -68,3 +68,74 @@ nav {
     padding-top: 20px;
     padding-bottom: 20px;
 }
+.border-radius5px {
+	border-radius: 10px;
+}
+.car{
+    min-height: 30vh;
+}
+.carousel-control.right,.carousel-control.left{
+    background-image: none;
+}
+.car span{
+    color:rgb(228,161,187);
+}
+.carousel-indicators li{
+    border:1px solid lrgb(228,161,187) !important;
+    bottom:unset !important;
+}
+.carousel-indicators .active{
+    background-color:rgb(228,161,187) !important;
+}
+.carousel-control{
+    width:0% !important;
+}
+
+.firstpageHover:hover {
+    background: rgb(228,161,187);
+    background: linear-gradient(326deg, rgba(228,161,187,1) 0%, rgba(228,161,187,1) 35%, rgba(40,193,223,1) 100%);
+    color:white;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+
+.my-69{
+    padding-bottom: 3rem;
+    padding-top:3rem;
+}
+.my-3{
+    margin-bottom: 3rem;
+    margin-top:3rem;
+}
+.my-5{
+    margin-bottom:5rem;
+    margin-top: 5rem;
+}
+.m-top{
+    margin-top:5rem;
+}
+.more-top{
+    margin-top:9rem;
+}
+.my-9{
+    margin-bottom: 9rem;
+    margin-top:9rem;
+}
+.flexss{
+    display: flex;
+    color:rgb(228,161,187);
+    width:100%;
+    justify-content: flex-start;
+}
+.flexcol{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:rgb(228,161,187);
+    margin-right: 20px;
+}
+.flexcol h1, .flexcol p{
+    margin:unset;
+    padding:unset;
+}
