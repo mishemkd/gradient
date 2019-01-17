@@ -12,7 +12,59 @@
 	left: 50%;
 	font-size: 20rem; */
 }
-
+nav {
+	background-color: white;
+}
 .mtop {
     margin-top: 160px;
+}
+.btn-round {
+    border-radius: 20px !important;
+    margin-top: -5px;
+}
+.letter-spacing {
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.text-black {
+    color: black;
+}
+.text-white {
+    color:white;
+}
+.text-lightgray {
+    color: lightgray;
+}
+.no-bold {
+    font-weight: normal !important;
+}
+.margin-top {
+    margin-top: 0px;
+}
+.margin-bottom {
+    margin-bottom: 0px;
+}
+.margin-top3em {
+    margin-top: 3em;
+}
+.margin-top30px {
+    margin-top: 30px;
+}
+.text-red {
+    color:red;
+}
+.hr-class {
+    width: 20px;
+    height: 2px;
+    background-color: orange;
+}
+.class-hover:hover {
+   background: rgb(146,146,231);
+   background: linear-gradient(90deg, rgba(146,146,231,1) 1%, rgba(219,121,132,1) 100%, rgba(207,18,18,1) 100%);
+   color: white !important;
+}
+.padding-top-bottom-20px {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
